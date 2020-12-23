@@ -1,0 +1,277 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+a{
+	text-decoration: none;
+	cursor: pointer;
+	color: #333;
+}
+em{
+	font-style: normal;
+	text-align: left;
+	font-size: inherit;
+}
+li{
+	list-style: none;
+}
+.section{
+	width: 1100px;
+	margin: auto;
+	background-color: white;
+}
+.section>.section_top{
+	width: 1100px;
+	height: 80px;
+	margin-bottom: 15px;
+	border-bottom: 1px solid #333;
+}
+.section>.section_top>.section_index{
+	padding: 30px 0px 19px 0px;
+	font-size: 18px;
+	font-weight: 600;
+}
+.section>.section_top>.section_index>span>a{
+	color: #333;
+}
+.section>.section_top>.section_index>.pointer{
+	font-size: 16px;
+	color: #999;
+}
+.section>.section_top>.section_index>.pointer>i{
+	position: relative;
+	top: 7px;
+	display: inline-block;
+	width: 16px;
+	height: 26px;
+	margin: 0 4px 0 8px;
+	background: url(../img/tt05.png) no-repeat left center;
+}
+.section>.section_middle{
+	width: 100%;
+}
+.section>.section_middle>.brand{
+	width: 100%;
+	height: 180px;
+}
+.section>.section_middle>.brand>.brand_border{
+	width: 1098px;
+	margin: auto;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	font-size: 14px;
+	text-align: center;
+}
+.border_top{
+	width: 1098px;
+	height: 88px;
+	margin: auto;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.border_top>.title{
+	float: left;
+	width: 80px;
+	line-height: 44px;
+	color: #999;
+	font-weight: 600;
+}
+.border_top>.title_ul{
+	width: 938px;
+	float: left;
+}
+.title_ul>li{
+	float: left;
+	line-height: 44px;
+	padding: 0px 4px;
+	color: #333;
+}
+.title_ul_li_a{
+	height: 24px;
+	padding: 3px 15px;
+	cursor: pointer;
+}
+.more{
+	float: left;
+	width: 60px;
+	padding-right: 20px;
+	margin-top: 10px;
+	height: 24px;
+	cursor: pointer;
+}
+.more i{
+	float: right;
+	width: 14px;
+	height: 7px;
+	margin-top: 6px;
+	background: url(../img/tt06.png);
+	background-repeat: no-repeat;
+}
+.border_middle{
+	width: 1098px;
+	height: 45px;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.border_middle>.classification{
+	float: left;
+	width: 80px;
+	line-height: 44px;
+	color: #999;
+	font-weight: 600;
+}
+.middle_ul{
+	width: 1018px;
+	float: left;
+}
+.middle_ul>li{
+	float: left;
+	line-height: 44px;
+	padding: 0 4px;
+	color: #333;
+}
+.middle_ul>li>a{
+	height: 24px;
+	padding: 3px 15px;
+	cursor: pointer;
+}
+.border_bottom{
+	width: 1098px;
+	height: 44px;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.border_bottom>.Price{
+	float: left;
+	width: 80px;
+	line-height: 44px;
+	color: #999;
+	font-weight: 600;
+}
+.bottom_ul{
+	float: left;
+	width: 1018px;
+}
+.bottom_ul>li{
+	float: left;
+	line-height: 44px;
+	padding: 0 4px;
+	color: #333;
+}
+.bottom_ul>li>a{
+	height: 24px;
+	padding: 3px 15px;
+	cursor: pointer;
+}
+.diy>.txt1{
+	padding: 0 10px 0 20px;
+}
+.diy>.txt2{
+	padding: 0 4px;
+	vertical-align: top;
+	color: rgba(0, 0, 0, 0.15);
+}
+.diy_s1{
+	float: left;
+}
+.diy input{
+	width: 66px;
+	height: 20px;
+	font-size: 14px;
+	border: 1px solid rgba(0, 0, 0, 0.15);
+}
+.diy>.btn{
+	background-color: #ccc;
+	color: #fff;
+	cursor: text;
+	height: 20px;
+	padding: 3px 13px;
+	font-weight: 600;
+}
+.Product{
+	width: 1100px;
+	margin: auto;
+}
+.Product>.Product_top{
+	width: 100%;
+}
+.Product_top_ul{
+	height: 21px;
+	margin: 30px 0 30px 0;
+	font-size: 16px;
+}
+.Product_top_ul>li{
+	float: left;
+	padding-right: 16px;
+}
+.Product_top_ul>li>a{
+	width: 100%;
+	height: 100%;
+}
+.zh{
+	font-weight: bold;
+	color: #333;
+}
+.Product_top_ul>li>a>em{
+	font-style: normal;
+	text-align: left;
+	font-size: inherit;
+}
+.point{
+	height: 21px;
+	padding-right: 16px;
+	background: url(../img/tt07.png) no-repeat left center;
+}
+.jiage{
+	width: 100%;
+	height: 100%;
+	color: #888;
+}
+.list{
+	margin-top: 20px;
+	width: 100%;
+	height: auto;
+}
+.list>li{
+	float: left;
+	position: relative;
+	width: 263px;
+	height: 382px;
+	padding-right: 16px;
+}
+.list .cover{
+	width: 263px;
+	height: 263px;
+	background-color: #f9f9f9;
+	cursor: pointer;
+	position: relative;
+	zoom: 1;
+	display: block;
+}
+.cover img{
+	width: 263px;
+	height: 263px;
+}
+.list .cnt{
+	margin-top: 10px;
+	text-align: center;
+}
+.cnt h3{
+	font-size: 14px;
+	line-height: 18px;
+	font-weight: normal;
+	color: #333;
+}
+.thide{
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+}
+.thide>a{
+	color: #333;
+}
+.thide_p{
+	font-size: 16px;
+	color: #d33a31;
+}
+.cnt p{
+	margin-top: 4px;
+}

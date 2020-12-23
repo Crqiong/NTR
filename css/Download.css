@@ -1,0 +1,580 @@
+			/*头部*/
+			.Download-top{
+				width: 100%;
+				height: 70px;
+				box-sizing: border-box;
+			    background: #242424;
+			    border-bottom: 1px solid #000;
+			    padding: 0 13.5%;
+			}
+			.Download-top>.logo{
+				float: left;
+			    width: 157px;
+			    height: 100%;
+			    padding-right: 20px;
+			    background-image: url(../img/topbar.png);
+			    background-position: 0px 0px;
+			    background-repeat: no-repeat;
+			    /*border: 1px solid red;*/
+			}
+			.Download-top>.index_nav{
+				float: left;
+			}
+			.Download-top>.index_nav>li{
+				float: left;
+				list-style: none;
+				position: relative;
+				font-size: 14px;
+			}
+			.Download-top>.index_nav>li>a{
+				color: rgba(250,250,250,0.7);
+				padding: 0 20px;
+				display: inline-block;
+				line-height: 70px;
+			}
+			.Download-top>.index_nav>li>a:hover{
+				background-color: black;
+				color: white;
+			}
+			.Download-top>.index_nav>li>.hot:after{
+				content: "";
+				display: inline-block;
+				position: absolute;
+			    top: 20px;
+			    right: -15px;
+			    width: 28px;
+			    height: 19px;
+			    background-position: -190px 0;
+			    /*border: 1px solid red;*/
+			     background-image: url(../img/topbar.png);
+			    background-repeat: no-repeat;
+			}
+			.Download-top>.index_nav>li>span{
+				background-image: url(../img/topbar.png);
+				background-position: -226px 0;
+			    background-repeat: no-repeat;
+			    position: absolute;
+			    width: 12px;
+			    height: 7px;
+			    /*border: 1px solid red;*/
+			    bottom: -1.5px;
+			    left: 50%;
+			    transform: translate(-50%,0);
+			    display: none;
+			}
+			.Download-top>.suggest{
+				float: right;
+				height: 70px;
+				width: 340px;
+				/*background-color: lightblue;*/
+			}
+			.Download-top>.suggest>div{
+				float: left;
+				font-size: 12px;
+				
+			}
+			.Download-top>.suggest>.suggest_one{
+				/*border: 1px solid red;*/
+				width: 150px;
+				height: 20px;
+				padding: 5px 3px 8px 10px;
+				margin-top: 18px;
+				border-radius: 50px;
+				background-color: white;
+				margin-right: 15px;
+			}
+			.Download-top>.suggest>.suggest_one>input{
+				width: 120px;
+				border: none;
+				outline: none;
+				font-size: 12px;
+			}
+			.Download-top>.suggest>.suggest_one>span{
+				display: inline-block;
+				width: 15px;
+				height: 15px;
+				/*border: 1px solid red;*/
+				background-image: url(../img/topbar.png);
+				background-position: -10px -107px;
+				position: relative;
+				top: 3px;
+				
+			}
+			.Download-top>.suggest>.suggest_two{
+				border: 1px solid rgba(110,110,110,0.5);
+				/*width: 150px;*/
+				/*height: 20px;*/
+				margin-top: 20px;
+				border-radius: 50px;
+				margin-right: 20px;
+			}
+			.Download-top>.suggest>.suggest_two:hover{
+				border: 1px solid rgba(220,220,220,1);
+			}
+			.Download-top>.suggest>.suggest_two:hover>a{
+				color: rgba(220,220,220,1);
+			}
+			.Download-top>.suggest>.suggest_two>a{
+				display: block;
+				color: rgba(250,250,250,0.7);
+				padding: 5px 15px;
+			}
+			.Download-top>.suggest>.suggest_three{
+				margin-top: 26px;
+			}
+			.Download-top>.suggest>.suggest_three>a{
+				color: rgba(250,250,250,0.4);
+			}
+			.Download-top>.suggest>.suggest_three>a:hover{
+				color: rgba(250,250,250,0.3);
+				text-decoration: underline;
+			}
+			.subnav{
+				width: 100%;
+				height: 5px;
+				background: #C20C0C;
+			}
+			/*设置固定定位*/
+			.Download-iframe{
+				position: fixed;
+				margin-top: 360px;
+    			z-index: 1;
+				width: 140px;
+				height: 150px;
+				background: #fff;
+    			box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    			border-radius: 10px;
+    			right: 30px;
+			}
+			.Download-iframe>img{
+				width: 100px;
+				height: 100px;
+				text-align: center;
+				margin-top: 20px;
+				margin-left: 20px;
+			}
+			.Download-iframe>p{
+				color: #333;
+			    font-size: 12px;
+			    text-align: center;
+			}
+			/*第一个盒子*/
+			.Download-box1{
+				width: 100%;
+				height: 600px;
+				background: #333;
+				position: relative;
+			}
+			.Download-box1>.clients{
+				position: absolute;
+				width: 200px;
+				height: 60px;
+				/*background: coral;*/
+				text-align: center;
+				line-height: 60px;
+				right: 200px;
+				color: #fff;
+			}
+			.Download-box1>.clients:hover{
+				color: #CCCCCC;
+				display: block;
+			}
+			.Download-box1>.tooltip{
+				position: absolute;
+				width: 280px;
+				height: 300px;
+				background: white;
+				right: 200px;
+				top: 70px;
+				z-index: 2;
+				border-radius: 10px;
+				display: none;
+			}
+			
+			.Download-box1>.clients:hover>.tooltip{
+				display: block;
+			}
+			.Download-box1>.tooltip>.tooltip-arrow{
+				position: absolute;
+				width: 0;
+				height: 0;
+				border-bottom: 10px solid white;
+				border-left: 10px solid transparent;
+				border-right: 10px solid transparent;
+			    top: -10px;
+			    right: 20px;
+			}
+			.Download-box1>.tooltip>.tooltip-small{
+				width: 260px;
+				height: 260px;
+				/*background: red;*/
+				margin-left: 10px;
+				margin-top: 20px;
+				/*position: relative;*/
+			}
+			.Download-box1>.tooltip>.tooltip-small>a{
+				position: relative;
+				float: left;
+				width: 115px;
+				height: 55px;
+				background: rgba(0, 0, 0, 0.08);
+				margin-left: 10px;
+				margin-top: 10px;
+				top: -5px;
+				text-align: center;
+				line-height: 55px;
+			}
+			.Download-box1>.tooltip>.tooltip-small>a>span{
+				font-size: 14px;
+			}
+			.Download-box1>.box1-small{
+				width: 1100px;
+				height: 460px;
+				margin: 0 auto;/*设置水平居中*/
+				position: relative;
+				top: 100px;
+			}
+			.Download-box1>.box1-small>.small-left{
+				width: 560px;
+				height: 460px;
+				float: left;
+				color: #eee;
+			}
+			.Download-box1>.box1-small>.small-left>.left-size{
+				width: 100%;
+				text-align: center;
+				font-size: 25px;
+				opacity: 0.8;
+				color: #FFFFFF;
+			}
+			.Download-box1>.box1-small>.small-left>img{
+				width: 464px;
+    			height: 273px;
+    			margin-left: 48px;
+    			margin-top: 20px;
+			}
+			.Download-box1>.box1-small>.small-left>.left-tip{
+				width: 100%;
+				font-size: 25px;
+				text-align: center;
+				margin-top: 10px;
+				color: #eee;
+			}
+			.Download-box1>.box1-small>.small-left>.left-tip>span{
+				margin-left: 25px;
+				display: inline-block;
+			}
+			.Download-box1>.box1-small>.small-left>.left-button{
+				width: 300px;
+			    height: 65px;
+			    margin: 0 auto;
+			    border-radius: 65px;
+			    background-color: #fff;
+			    color: #D10000;
+			    font-size: 22px;
+			    line-height: 65px;
+			    text-align: center;
+			    cursor: pointer;
+			    box-sizing: content-box;
+			    margin-top: 10px;
+			}
+			.Download-box1>.box1-small>.small-left>.left-button:hover{
+				background-color: #CCCCCC;
+			}
+			.Download-box1>.box1-small>.small-right{
+				width: 300px;
+				height: 460px;
+				float: right;
+				color: #eee;
+			}
+			.Download-box1>.box1-small>.small-right>.right-size{
+				width: 100%;
+				text-align: center;
+				font-size: 25px;
+				opacity: 0.8;
+				color: #FFFFFF;
+			}
+			.Download-box1>.box1-small>.small-right>img{
+				width: 250px;
+				height: 280px;
+				margin-left: 25px;
+				margin-top: 20px;
+			}
+			.Download-box1>.box1-small>.small-right>.right-tip{
+				width: 100%;
+				font-size: 25px;
+				text-align: center;
+				margin-top: 10px;
+				color: #eee;
+			}
+			.Download-box1>.box1-small>.small-right>.button-tooltip{
+				position: relative;
+				width: 210px;
+				height: 230px;
+				background: white;
+				z-index: 2;
+				top: -320px;
+				left: 50px;
+				border-radius: 10px;
+				display: none;
+			}
+			.Download-box1>.box1-small>.small-right>.button-tooltip>img{
+				width: 170px;
+				height: 170px;
+				margin-left: 20px;
+				margin-top: 20px;
+			}
+			.Download-box1>.box1-small>.small-right>.button-tooltip>.button-tooltip-arrow{
+				position: absolute;
+				width: 0;
+				height: 0;
+				bottom: 12px;
+			   	border-top: 10px solid white;
+				border-left: 10px solid transparent;
+				border-right: 10px solid transparent;
+			    border-top-color: #fff;
+			    bottom: -10px;
+			    left: 90px;
+			}
+			.Download-box1>.box1-small>.small-right>.button-tooltip>p{
+				text-align: center;
+			}
+			.Download-box1>.box1-small>.small-right>.right-button{
+				width: 300px;
+			    height: 65px;
+			    margin: 0 auto;
+			    border-radius: 65px;
+			    background-color: #fff;
+			    color: #D10000;
+			    font-size: 22px;
+			    line-height: 65px;
+			    text-align: center;
+			    cursor: pointer;
+			    box-sizing: content-box;
+			    margin-top: 10px;
+			}
+			.Download-box1>.box1-small>.small-right>.right-button:hover{
+				background-color: #CCCCCC;
+			}
+			.Download-box1>.box1-small>.small-right>.right-button>i{
+				display: inline-block;
+			    width: 21px;
+			    height: 21px;
+			    margin-right: 3px;
+			    background: url(../img/二维码.png) no-repeat center;
+			    background-size: contain;
+			    vertical-align: -3px;
+			}
+			/*设置所有的h1*/
+			h3{
+				font-size: 40px;
+			    font-weight: normal;
+			    padding: 45px 0 5px 0;
+			}
+			/*设置所有的p*/
+			p{
+				font-size: 16px;
+			    color: #666;
+			    line-height: 24px;
+			}
+			/*第二个盒子*/
+			.Download-box2{
+				width: 100%;
+			    height: 437px;
+			    border-bottom: 1px solid #e3e3e3;
+			    background: #fff;
+			}
+			.Download-box2>.box2-small{
+				width: 980px;
+				height: 280px;
+    			margin: 0 auto;
+    			margin-top: 150px;
+			}
+			.Download-box2>.box2-small>.box2-small-left{
+				width: 390px;
+				height: 200px;
+				float: left;
+    			margin-left: 30px;
+    			margin-top: 40px;
+			}
+			.Download-box2>.box2-small>.box2-small-right{
+				float: right;
+				margin-top: 40px;
+				margin-right: 57px;
+			}
+			/*第三个盒子*/
+			.Download-box3{
+				width: 100%;
+			    height: 430px;
+			    border-bottom: 1px solid #e3e3e3;
+			    background: #f8f8f8;
+			    position: relative;
+			}
+			.Download-box3>.box3-small{
+				width: 980px;
+				height: 280px;
+    			margin: 0 auto;
+    			position: absolute;
+    			top: 75px;
+    			left: 50%;
+    			margin-left: -490px;
+			}
+			.Download-box3>.box3-small>.box3-small-left{
+				float: left;
+				width: 450px;
+				height: 270px;
+				margin-top: 6px;
+			}
+			.Download-box3>.box3-small>.box3-small-right{
+				width: 430px;
+				height: 200px;
+				float: right;
+    			margin-right: 30px;
+    			margin-top: 40px;
+			}
+			/*第四个盒子*/
+			.Download-box4{
+				width: 100%;
+			    height: 437px;
+			    border-bottom: 1px solid #e3e3e3;
+			    background: #fff;
+			}
+			.Download-box4>.box4-small{
+				width: 980px;
+				height: 280px;
+    			margin: 0 auto;
+    			margin-top: 150px;
+			}
+			.Download-box4>.box4-small>.box4-small-left{
+				width: 420px;
+				height: 200px;
+				float: left;
+    			margin-left: 30px;
+    			margin-top: 40px;
+			}
+			.Download-box4>.box4-small>.box4-small-right{
+				width: 470px;
+				height: 290px;
+				float: right;
+				margin-top: 20px;
+				margin-right: 20px;
+			}
+			/*第五个盒子*/
+			.Download-box5{
+				width: 100%;
+			    height: 437px;
+			    border-bottom: 1px solid #e3e3e3;
+			    background: #f8f8f8;
+			    position: relative;
+			}
+			.Download-box5>.box5-small{
+				width: 980px;
+				height: 280px;
+    			margin: 0 auto;
+    			position: absolute;
+    			top: 75px;
+    			left: 50%;
+    			margin-left: -490px;
+			}
+			.Download-box5>.box5-small>.box5-small-left{
+				float: left;
+				width: 450px;
+				height: 270px;
+				margin-top: 20px;
+				margin-left: 10px;
+			}
+			.Download-box5>.box5-small>.box5-small-right{
+				width: 430px;
+				height: 200px;
+				float: right;
+    			margin-right: 30px;
+    			margin-top: 40px;
+			}
+			/*第六 个盒子*/
+			.Download-box6{
+				width: 100%;
+			    height: 350px;
+			    border-bottom: 1px solid #e3e3e3;
+			    background: #fff;
+			}
+			.Download-box6>.box6-small{
+				width: 980px;
+				height: 280px;
+    			margin: 0 auto;
+    			margin-top: 150px;
+			}
+			.Download-box6>.box6-small>.box6-small-left{
+				width: 420px;
+				height: 200px;
+				float: left;
+    			margin-left: 30px;
+    			margin-top: 40px;
+			}
+			.Download-box6>.box6-small>.box6-small-right{
+				width: 470px;
+				height: 290px;
+				float: right;
+				margin-top: -60px;
+				margin-right: -100px;
+			}
+			/*底部*/
+			.Download-footre{
+				/*position: relative;*/
+				width: 100%;
+			    height: 170px;
+			    overflow: hidden;
+			    border-top: 1px solid #d3d3d3;
+			    background: #f2f2f2;
+			}
+			.Download-footre>.footre-small{
+				width: 980px;
+				height: 110px;
+				/*background: lightblue;*/
+				margin: 0 auto;
+			}
+			.Download-footre>.footre-small>.small-left{
+				position: relative;
+				width: 560px;
+				height: 100px;
+				/*background: gray;*/
+				top: 10px;
+				float: left;
+			}
+			.Download-footre>.footre-small>.small-left>p{
+				font-size: 14px;
+				font-size: 13px;
+				margin-top: 6px;
+			}
+			.Download-footre>.footre-small>.small-left>p>span{
+				margin-right: 5px;
+			}
+			.Download-footre>.footre-small>.small-right{
+				float: right;
+				width: 330px;
+				height: 70px;
+				/*background: lemonchiffon;*/
+				margin-top: 40px;
+			}
+			.Download-footre>.footre-small>.small-right>li{
+				position: relative;
+				float: left;
+				width: 60px;
+				height: 70px;
+				/*background: lightcoral;*/
+				margin-left: 20px;
+			}
+			.Download-footre>.footre-small>.small-right>li>a{
+				position: absolute;
+				width: 60px;
+				height: 50px;
+			}
+			.Download-footre>.footre-small>.small-right>li>span{
+				position: absolute;
+				width: 60px;
+				height: 20px;
+				/*background: khaki;*/
+				bottom: 0px;
+				text-align: center;
+				font-size: 12px;
+				color: #666;
+			}

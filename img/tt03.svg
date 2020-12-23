@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="17px" height="13px" viewBox="0 0 17 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Fill 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" fill-opacity="0.8">
+        <g id="顶部" transform="translate(-1420.000000, -23.000000)" fill="#FFFFFF">
+            <g id="Group-2" transform="translate(1362.000000, 23.000000)">
+                <path d="M60,11 L59.999,3.26 L66.5,8.261 L73,3.261 L73,11 L60,11 Z M60,2 L59.999,2.001 L59.999,2 L60,2 Z M71.36,2 L66.5,5.738 L61.64,2 L71.36,2 Z M73,0 L60,0 C58.897,0 58,0.896 58,2 L58,11 C58,12.103 58.897,13 60,13 L73,13 C74.103,13 75,12.103 75,11 L75,2 C75,0.896 74.103,0 73,0 Z" id="Fill-1"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,60 @@
+.Ranking-footre{
+			 	position: relative;
+			     height: 172px;
+			     overflow: hidden;
+			     border-top: 1px solid #d3d3d3;
+			     background: #f2f2f2;
+			 }
+			 .Ranking-footre>.footre-small{
+			 	width: 980px;
+			 	height: 110px;
+			 	/*background: lightblue;*/
+			 	margin: 0 auto;
+			 	margin-top: 10px;
+			 }
+			 .Ranking-footre>.footre-small>.small-left{
+			 	position: relative;
+			 	width: 560px;
+			 	height: 100px;
+			 	/*background: gray;*/
+			 	top: 20px;
+			 	float: left;
+			 	
+			 }
+			 .Ranking-footre>.footre-small>.small-left>p{
+			 	font-size: 13px;
+			 	margin-top: 15px;
+			 }
+			 .Ranking-footre>.footre-small>.small-left>p>span{
+			 	margin-right: 5px;
+			 }
+			 .Ranking-footre>.footre-small>.small-right{
+			 	float: right;
+			 	width: 420px;
+			 	height: 70px;
+			 	/*background: lemonchiffon;*/
+			 	margin-top: 40px;
+			 }
+			 .Ranking-footre>.footre-small>.small-right>li{
+			 	position: relative;
+			 	float: left;
+			 	width: 60px;
+			 	height: 70px;
+			 	/*background: lightcoral;*/
+			 	margin-left: 20px;
+			 }
+			 .Ranking-footre>.footre-small>.small-right>li>a{
+			 	position: absolute;
+			 	width: 60px;
+			 	height: 50px;
+			 }
+			 .Ranking-footre>.footre-small>.small-right>li>span{
+			 	position: absolute;
+			 	width: 60px;
+			 	height: 20px;
+			 	/*background: khaki;*/
+			 	bottom: 0px;
+			 	text-align: center;
+			 	font-size: 12px;
+			 	color: #666;
+			 }
